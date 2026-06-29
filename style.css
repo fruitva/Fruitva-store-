@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Fruitva | Coming Soon</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="hero">
+
+<div class="overlay"></div>
+
+<div class="content">
+
+<h1>🥭 FRUITVA</h1>
+
+<p class="tagline">
+Nature In Every Bite
+</p>
+
+<h2>
+Something Naturally Extraordinary Is Coming.
+</h2>
+
+<p class="description">
+
+Premium Dried Mango
+
+Crafted for people who love healthy snacking.
+
+</p>
+
+<a href="#" class="btn">
+Coming Soon
+</a>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
