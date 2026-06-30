@@ -406,3 +406,40 @@ body{
 }
 
 }
+.reviews{
+padding:80px 20px;
+background:#ffffff;
+text-align:center;
+}
+
+.reviews h2{
+font-size:38px;
+color:#0b5b2b;
+margin-bottom:40px;
+}
+
+.review-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+max-width:1100px;
+margin:auto;
+}
+
+.review{
+background:#f8f8f8;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.review h3{
+color:#ff9800;
+margin-bottom:15px;
+}
+
+.review p{
+color:#555;
+line-height:1.8;
+margin-bottom:15px;
+}
