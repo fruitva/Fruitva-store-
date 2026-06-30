@@ -1,54 +1,169 @@
-<!DOCTYPE html>
-<html lang="en">
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
 
-<head>
+body{
+background:#07280f;
+color:white;
+}
 
-<meta charset="UTF-8">
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(0,0,0,.25);
+backdrop-filter:blur(10px);
+position:fixed;
+width:100%;
+top:0;
+z-index:100;
+}
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+.logo{
+font-size:32px;
+font-weight:700;
+color:#ffb300;
+}
 
-<title>Fruitva | Coming Soon</title>
+.logo span{
+color:white;
+margin-left:8px;
+}
 
-<link rel="stylesheet" href="style.css">
+.launch-btn{
+text-decoration:none;
+background:#ffb300;
+padding:12px 22px;
+border-radius:40px;
+font-weight:600;
+color:#111;
+transition:.3s;
+}
 
-</head>
+.launch-btn:hover{
+transform:scale(1.05);
+}
 
-<body>
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.55)),
+url("https://images.unsplash.com/photo-1553279768-865429fa0078?w=1600");
+background-size:cover;
+background-position:center;
+}
 
-<div class="hero">
+.glass{
+background:rgba(255,255,255,.12);
+backdrop-filter:blur(12px);
+padding:45px;
+border-radius:25px;
+max-width:750px;
+text-align:center;
+}
 
-<div class="overlay"></div>
+.glass h3{
+color:#ffcf4d;
+letter-spacing:3px;
+margin-bottom:20px;
+}
 
-<div class="content">
+.glass h1{
+font-size:56px;
+margin-bottom:20px;
+}
 
-<h1>🥭 FRUITVA</h1>
+.glass p{
+font-size:18px;
+line-height:32px;
+color:#eee;
+}
 
-<p class="tagline">
-Nature In Every Bite
-</p>
+.buttons{
+margin-top:35px;
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
 
-<h2>
-Something Naturally Extraordinary Is Coming.
-</h2>
+.primary,
+.secondary{
+padding:15px 35px;
+border-radius:40px;
+text-decoration:none;
+font-weight:600;
+}
 
-<p class="description">
+.primary{
+background:#ffb300;
+color:black;
+}
 
-Premium Dried Mango
+.secondary{
+border:2px solid white;
+color:white;
+}
 
-Crafted for people who love healthy snacking.
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+padding:70px 8%;
+background:#0d3415;
+}
 
-</p>
+.box{
+background:#12441d;
+padding:30px;
+border-radius:18px;
+text-align:center;
+transition:.3s;
+}
 
-<a href="#" class="btn">
-Coming Soon
-</a>
+.box:hover{
+transform:translateY(-10px);
+}
 
-</div>
+.box h2{
+margin:18px 0;
+}
 
-</div>
+footer{
+padding:30px;
+text-align:center;
+background:black;
+color:#aaa;
+}
 
-<script src="script.js"></script>
+@media(max-width:768px){
 
-</body>
+nav{
+padding:18px;
+}
 
-</html>
+.logo{
+font-size:24px;
+}
+
+.glass{
+padding:30px;
+}
+
+.glass h1{
+font-size:36px;
+}
+
+.glass p{
+font-size:16px;
+line-height:28px;
+}
+
+}
