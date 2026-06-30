@@ -362,3 +362,47 @@ text-decoration:none;
 border-radius:50px;
 font-weight:bold;
 }
+@media (max-width: 768px){
+
+.hero{
+    flex-direction:column;
+    padding:20px;
+    text-align:center;
+}
+
+.glass{
+    width:100%;
+    margin-top:20px;
+}
+
+.launch{
+    width:100%;
+    margin-bottom:20px;
+}
+
+.features{
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.product-card{
+    width:90%;
+    margin:auto;
+}
+
+.buttons{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.buttons a{
+    width:100%;
+    text-align:center;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+}
