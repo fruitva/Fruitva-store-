@@ -443,3 +443,34 @@ color:#555;
 line-height:1.8;
 margin-bottom:15px;
 }
+.faq{
+padding:80px 20px;
+background:#ffffff;
+text-align:center;
+}
+
+.faq h2{
+font-size:38px;
+color:#0b5b2b;
+margin-bottom:40px;
+}
+
+.faq-item{
+max-width:900px;
+margin:20px auto;
+background:#f8f8f8;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+text-align:left;
+}
+
+.faq-item h3{
+color:#ff9800;
+margin-bottom:10px;
+}
+
+.faq-item p{
+color:#555;
+line-height:1.8;
+}
