@@ -623,3 +623,19 @@ color:#ffb300;
 .hero-image img:hover{
     transform:scale(1.05) rotate(-2deg);
 }
+@media(max-width:768px){
+
+.hero-content{
+    flex-direction:column-reverse;
+    text-align:center;
+}
+
+.hero-image img{
+    max-width:280px;
+}
+
+.hero-text h1{
+    font-size:38px;
+}
+
+}
