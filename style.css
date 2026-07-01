@@ -583,3 +583,43 @@ color:#eee;
 margin-top:20px;
 color:#ffb300;
 }
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("https://images.unsplash.com/photo-1553279768-865429fa0078?w=1600");
+    background-size:cover;
+    background-position:center;
+    padding:120px 8% 80px;
+}
+
+.hero-content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:80px;
+    max-width:1300px;
+    width:100%;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.hero-image{
+    flex:1;
+    text-align:center;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:430px;
+    filter:drop-shadow(0 25px 50px rgba(0,0,0,.35));
+    transition:.4s;
+}
+
+.hero-image img:hover{
+    transform:scale(1.05) rotate(-2deg);
+}
